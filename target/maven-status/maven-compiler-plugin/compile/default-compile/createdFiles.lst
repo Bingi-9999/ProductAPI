@@ -1,0 +1,11 @@
+com\retail\Product\Service\ProductServicePublic.class
+com\retail\Product\DTO\ProductMapper.class
+com\retail\Product\ProductApplication.class
+com\retail\Product\Entity\ProductCategory.class
+com\retail\Product\Entity\ProductBaseEntity.class
+com\retail\Product\Controller\ProductControllerAdmin.class
+com\retail\Product\Entity\Product.class
+com\retail\Product\DTO\ProductDTO.class
+com\retail\Product\Controller\ProductControllerPublic.class
+com\retail\Product\Repository\ProductRepo.class
+com\retail\Product\Service\ProductServiceAdmin.class
