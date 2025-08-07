@@ -18,6 +18,12 @@ public class ProductControllerPublic {
     @Autowired
     private ProductServicePublic productServicePublic;
 
+    @GetMapping("/")
+    public String greet(){
+       return "Welcome to product Application";
+
+    }
+    
     @GetMapping("/products")
     public ResponseEntity<List<ProductDTO>> getProducts(){
         List<ProductDTO> productDTO = productServicePublic.getAllProducts();
